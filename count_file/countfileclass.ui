@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CountFileClass</class>
+ <widget class="QMainWindow" name="CountFileClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1269</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CountFileClass</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(2, 68, 6);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>450</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.5615, y1:0.693, x2:0.558, y2:0.943182, stop:0.0721154 rgba(203, 213, 217, 255), stop:1 rgba(245, 251, 255, 255));
+color: rgb(3, 86, 10);
+font: 700 16pt &quot;Segoe Script&quot;;
+border:2px solidqlineargradient(spread:pad, x1:0.5615, y1:0.693, x2:0.558, y2:0.943182, stop:0.0721154 rgba(203, 213, 217, 255), stop:1 rgba(245, 251, 255, 255));
+border-radius:20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Count</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>190</y>
+      <width>491</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(16, 99, 15);
+font: 700 16pt &quot;Sitka&quot;;
+background-color: rgb(220, 221, 223);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>350</y>
+      <width>531</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(220, 221, 223);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1321</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.499423, y1:0.744, x2:0.5, y2:1, stop:0 rgba(199, 204, 207, 255), stop:0.826923 rgba(245, 251, 255, 255));
+font: 24pt &quot;Algerian&quot;;
+color: rgb(74, 147, 35);</string>
+    </property>
+    <property name="text">
+     <string>    Frequency of word</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>851</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(185, 188, 188);
+font: 18pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>You can count the frequency of every word in file </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>431</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(209, 209, 209);
+font: 16pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Please enter the file as *.txt</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1269</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
